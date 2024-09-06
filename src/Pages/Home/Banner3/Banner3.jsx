@@ -1,14 +1,16 @@
 import React from 'react';
 import'./Banner3.css'
+import banner3 from '../../../assets/home/chef-service.jpg'
 
 
 const Banner3 = () => {
     return (
        <div>
-         <div className='box-content h-50 w-auto  p-4 border-4 bg-white text-center'>
+        <img src={banner3} alt="" />
+         <div className=' bg-white text-center -mt-32 text-white'>
             <div className=' '>
-                <h2 className=''> Rosalo</h2>
-                <p className=''>ventore, nulla sedfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddg?</p>
+                <h2 className='text-4xl'> Rosalo</h2>
+                <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, omnis!</p>
             </div>
         </div>
        </div>
