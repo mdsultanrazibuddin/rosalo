@@ -13,7 +13,7 @@ import SectionTitle from '../../../Components/SectionTitle/sectionTitle';
 
 const Banner2 = () => {
     return (
-        <section>
+        <section className='mx-32'>
             <SectionTitle 
              subheading = {" From 11.00am to 10.00pm "}
              heading ={ "Order Online "}

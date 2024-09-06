@@ -21,7 +21,7 @@ const Testimonial = () => {
     
     }, [])
     return (
-       <section>
+       <section className='mx-32'>
             <SectionTitle
             subheading={'What Our Clients Say'}
             heading={'Testimonials'}

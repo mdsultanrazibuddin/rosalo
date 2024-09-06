@@ -4,6 +4,7 @@ import Banner3 from "../Banner3/Banner3";
 import Contact from "../contact/contact";
 import FeatureItem from "../FeatureItem/FeatureItem";
 import PopularMenu from "../PopularMenu/PopularMenu";
+import Recommend from "../Recommend/Recommend";
 import Testimonial from "../Testimonial/Testimonial";
 
 
@@ -16,6 +17,7 @@ const Home = () => {
           <Banner3></Banner3>
           <PopularMenu></PopularMenu>
           <Contact></Contact>
+          <Recommend></Recommend>
           <FeatureItem></FeatureItem>
           <Testimonial></Testimonial>
         </div>

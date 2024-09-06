@@ -5,7 +5,7 @@ import './FeatureItem.css'
 
 const FeatureItem = () => {
     return (
-        <div className="featured my-20 bg-fixed text-white pt-10 ">
+        <div className="featured  my-20 bg-fixed text-white pt-10 ">
             <SectionTitle 
             heading = {'From Our Menu'}
             subheading={'Chect It Out'}
