@@ -4,11 +4,11 @@ import'./Banner3.css'
 
 const Banner3 = () => {
     return (
-       <div className="bg-[url('../../../assets/home/chef-service.jpg')]">
-         <div className='box-content h-30 w-30 p-4 border-4 bg-white text-center'>
+       <div>
+         <div className='box-content h-50 w-auto  p-4 border-4 bg-white text-center'>
             <div className=' '>
                 <h2 className=''> Rosalo</h2>
-                <p className=''>ventore, nulla sed?</p>
+                <p className=''>ventore, nulla sedfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddg?</p>
             </div>
         </div>
        </div>

@@ -26,6 +26,7 @@ const Testimonial = () => {
             subheading={'What Our Clients Say'}
             heading={'Testimonials'}
             ></SectionTitle>
+            {/* Swiper */}
 
             <div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
@@ -35,11 +36,13 @@ const Testimonial = () => {
                     key = {review._id}
                     >
                         <div className='flex flex-col items-center mx-24 mt-5 mb-16'>
+                            {/* React Awesome star rating */}
                             <Rating
                                 style={{ maxWidth: 180 }}
                                 value={review.rating}
                                 readOnly
                             /> 
+                            {/* React Icon */}
                             <div className='text-6xl mt-5'>
                                   <FaQuoteLeft />
                             </div>
