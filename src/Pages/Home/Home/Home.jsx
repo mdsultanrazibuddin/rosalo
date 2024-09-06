@@ -3,6 +3,7 @@ import Banner2 from "../Banner2/Banner2";
 import Banner3 from "../Banner3/Banner3";
 import FeatureItem from "../FeatureItem/FeatureItem";
 import PopularMenu from "../PopularMenu/PopularMenu";
+import Testimonial from "../Testimonial/Testimonial";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
           <Banner3></Banner3>
           <PopularMenu></PopularMenu>
           <FeatureItem></FeatureItem>
+          <Testimonial></Testimonial>
         </div>
     );
 };
