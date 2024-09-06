@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import Banner2 from "../Banner2/Banner2";
 import Banner3 from "../Banner3/Banner3";
+import FeatureItem from "../FeatureItem/FeatureItem";
 import PopularMenu from "../PopularMenu/PopularMenu";
 
 
@@ -11,6 +12,7 @@ const Home = () => {
           <Banner2></Banner2>
           <Banner3></Banner3>
           <PopularMenu></PopularMenu>
+          <FeatureItem></FeatureItem>
         </div>
     );
 };
